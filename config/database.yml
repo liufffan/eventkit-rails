@@ -19,7 +19,10 @@ test:
   timeout: 5000
 
 production:
-  adapter: postgresql
+  adapter: mysql
   encoding: unicode
   database: eventkit_production
+  username: admin
+  password: admin
+  host: 127.0.0.1
   pool: 5
